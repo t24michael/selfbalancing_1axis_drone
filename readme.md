@@ -9,19 +9,21 @@ For the data collection we used a software made by Roger Meier called [CoolTerm]
 **For data processing we used MATLAB.** 
 1. Import the collected data to look at their frequency spectrum \
 Motor 1\
-![M1](matlab-main/figures/m1.jpg)
+![M1](matlab-main/figures/m1.jpg) \
 Motor 2\
 ![M2](matlab-main/figures/m2.jpg)
 
 2. Filter the collected data using a Butterworth filter
 Motor 1 filtered\
-![M1](matlab-main/figures/filtered_m1.jpg)
+![M1](matlab-main/figures/filtered_m1.jpg) \
 Motor 2 filtered\
 ![M2](matlab-main/figures/filtered_m2.jpg)
 
-3. Create the systems in Simulink and then use PID tuner to create the PIDs
-![SYSTEMS](matlab-main/figures/systems.jpg)
-![STEP-RESPONSE OF THE TWO SYSTEMS](matlab-main/figures/systems.jpg)
+3. Create the systems in SIMULINK and then use PID tuner to create the PIDs
+The systems in SIMULINK\
+![SYSTEMS](matlab-main/figures/systems.jpg)\
+Their step response\
+![STEP-RESPONSE OF THE TWO SYSTEMS](matlab-main/figures/step_response.png)\
 
 4. Obtaining the parameters of the difference equation
 ```cpp
@@ -78,6 +80,7 @@ float controller(float pos, float target_pos, int esc_pin,
   ESC1.speed(speed1);
   ESC2.speed(speed2);
 ```
+
 ## TEAM
 Cojanu Alin\
 Constantin Sergiu\
