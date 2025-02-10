@@ -8,11 +8,15 @@ For the data collection we used a software made by Roger Meier called [CoolTerm]
 
 **For data processing we used MATLAB.** 
 1. Import the collected data to look at their frequency spectrum \
+Motor 1\
 ![M1](matlab-main/figures/m1.jpg)
+Motor 2\
 ![M2](matlab-main/figures/m2.jpg)
 
 2. Filter the collected data using a Butterworth filter
+Motor 1 filtered\
 ![M1](matlab-main/figures/filtered_m1.jpg)
+Motor 2 filtered\
 ![M2](matlab-main/figures/filtered_m2.jpg)
 
 3. Create the systems in Simulink and then use PID tuner to create the PIDs
