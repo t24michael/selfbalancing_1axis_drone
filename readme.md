@@ -4,7 +4,7 @@ This project was made for our Embedded Systems course. It consists of a drone ba
 
 ## The project
 
-For the data collection we used a software made by Roger Meier called [CoolTerm](https://freeware.the-meiers.org/) which basically just transmits the information recieved on a port to a .csv file. \
+For the data collection we used a software made by Roger Meier called [CoolTerm](https://freeware.the-meiers.org/) which basically just transmits the information recieved on a port to a .csv file. 
 
 **For data processing we used MATLAB.** 
 1. Import the collected data to look at their frequency spectrum \
