@@ -13,13 +13,13 @@ Motor 1\
 Motor 2\
 ![M2](matlab-main/figures/m2.jpg)
 
-2. Filter the collected data using a Butterworth filter
+2. Filter the collected data using a Butterworth filter \
 Motor 1 filtered\
 ![M1](matlab-main/figures/filtered_m1.jpg) \
 Motor 2 filtered\
 ![M2](matlab-main/figures/filtered_m2.jpg)
 
-3. Create the systems in SIMULINK and then use PID tuner to create the PIDs
+3. Create the systems in SIMULINK and then use PID tuner to create the PIDs \
 The systems in SIMULINK\
 ![SYSTEMS](matlab-main/figures/systems.jpg)\
 Their step response\
