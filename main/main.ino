@@ -114,7 +114,7 @@ void setup() {
 
   mpu.initialize();
 
-  //offset urile
+  //offsets
   mpu.setXAccelOffset(-3548);
   mpu.setYAccelOffset(-662);
   mpu.setZAccelOffset(1304);
@@ -144,7 +144,6 @@ void loop() {
   gyroAngle = gyroAngle + (float)gyroRate * loopTime / 1000;
   angleX = alfa * accAngle + (1 - alfa) * gyroAngle;
   angleX *= 2;
-  angleX = smooth(angleX);
 
   res1 = controller(angleX, 0, esc1_pin, ups1, upt1, yps1, ypt1, upp1, ypp1);
   res2 = controller(angleX, 0, esc2_pin, ups2, upt2, yps2, ypt2, upp2, ypp2);
